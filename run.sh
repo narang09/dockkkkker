@@ -1,18 +1,12 @@
-
 #!/bin/bash
 
 
-set -x
-
-while $1
-
+while (($1=="true")) ;
 do
-	echo "Press [ctrl+C] to stop .."
-
-	sleep 5
+	echo "my second & third inpur is $2 $3 "
 	
-	echo "My second and third argument is $2 & $3 "
 done
+
 
 
 
