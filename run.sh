@@ -1,11 +1,8 @@
 #!/bin/bash
+ 
 
-
-read -r x y z
-
-
-
-
+echo "valuesc :"
+read x y z
 
 while (($x=="true")) ;
 do
