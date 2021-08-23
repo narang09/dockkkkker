@@ -9,21 +9,12 @@ echo -e "Enter third number: \c"
 read -r z
 
 
-<<<<<<< HEAD
 
-
-while (($x=="narang")) ;
-do
-	sleep 1
-	echo "my second & third inpur is $y $z "
-	echo "press cltrl+c to stop this loop "
-=======
 while (($x=="true")) ;
 do
         sleep 1
         echo "my second & third inpur is $y $z "
         echo "press cltrl+c to stop this loop "
->>>>>>> 971b2846ca57855b7168e3dadad38457a82cbd83
 done
 
 
