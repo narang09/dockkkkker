@@ -1,12 +1,9 @@
 #!/bin/bash
 
 
-echo -e "Enter first number: \c"
-read -r x
-echo -e "Enter Second number: \c"
-read -r y
-echo -e "Enter third number: \c"
-read -r z
+read -r x y z
+
+
 
 
 
