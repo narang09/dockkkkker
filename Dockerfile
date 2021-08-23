@@ -6,6 +6,6 @@ RUN apt -y update
 COPY ./run.sh /
 RUN chmod +x /run.sh
 ENTRYPOINT ["/run.sh"]
-CMD ["false" , "hello" , "name"]
+CMD ["true" , "hello" , "name"]
 
 
