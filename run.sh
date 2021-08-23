@@ -1,15 +1,18 @@
 #!/bin/bash
  
 
-echo "valuesc :"
-read x y z
-
-while (($x=="true")) ;
+if $1;
+then
+while :
 do
-        sleep 1
-        echo "my second & third inpur is $y $z "
-        echo "press cltrl+c to stop this loop "
+        echo "infinite"
+        echo "second and third is $2 and $3"
 done
+
+else
+        echo "second and third is $2 and $3"
+fi
+
 
 
 
