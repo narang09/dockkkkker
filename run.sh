@@ -1,17 +1,21 @@
-
 #!/bin/bash
 
 
-set -x
+echo -e "Enter first number: \c"
+read -r x
+echo -e "Enter Second number: \c"
+read -r y
+echo -e "Enter third number: \c"
+read -r z
 
-while $1
 
+
+
+while (($x=="narang")) ;
 do
-	echo "Press [ctrl+C] to stop .."
-
-	sleep 5
-	
-	echo "My second and third argument is $2 & $3 "
+	sleep 1
+	echo "my second & third inpur is $y $z "
+	echo "press cltrl+c to stop this loop "
 done
 
 
